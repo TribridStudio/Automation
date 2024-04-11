@@ -2,6 +2,14 @@
 ## Takes a midi file and bounces it to MP3 using an empty logic project.
 ## can also use a custom instrument and preset.
 
+### Useage
+# python3 bounce_midi.py \
+#   '/path/to/some\ project.logicx' \
+#   '/path/to/some\ midi.mid' \
+#   'out' \
+#   '["AU Instruments", "Native Instruments", "Spitfire Labs", "Kontakt", "Stereo"]' \
+#   'my_preset'
+
 import logic
 import sys
 import json 
