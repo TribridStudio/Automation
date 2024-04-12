@@ -1,4 +1,7 @@
 # Takes a logic project, transposes everything, and bounces to MP3.
+# python3 transpose.py <path_to_logic_project> <transpose_by> <output_name>
+# Example: python3 transpose.py '/path/to/some\ project.logicx' 3 transposed_output
+
 
 import sys
 import time
