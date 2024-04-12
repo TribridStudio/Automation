@@ -1,3 +1,6 @@
+# python3 write_midi.py <notes_array> <output_name>
+# Example: python3 write_midi.py '[0, 4, 5]' '/path/to/some\ midi.mid'
+
 from midiutil import MIDIFile
 import sys
 import json
