@@ -6,5 +6,6 @@ import (
 
 func main() {
 	// scraping logic...
+
 	fmt.Println("Hello, World!")
 }
